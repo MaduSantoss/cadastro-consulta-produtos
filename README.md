@@ -27,14 +27,14 @@ A forma mais fácil de rodar o projeto é utilizando o **Docker**. Certifique-se
 **Passo 1:** Clone este repositório:
 
 ```bash
-git clone [https://github.com/MaduSantoss/SEU_REPOSITORIO.git](https://github.com/MaduSantoss/SEU_REPOSITORIO.git)
+git clone [https://github.com/MaduSantoss/cadastro-consulta-produtos.git]
 
 ```
 
 **Passo 2:** Acesse a pasta do projeto:
 
 ```bash
-cd SEU_REPOSITORIO
+cd cadastro-consulta-produtos
 
 ```
 
