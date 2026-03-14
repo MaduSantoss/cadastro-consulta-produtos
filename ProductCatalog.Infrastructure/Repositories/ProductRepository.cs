@@ -23,7 +23,7 @@ public class ProductRepository : IProductRepository
     {
         var query = _context.Products.AsQueryable();
 
-        // Aplicando os filtros do desafio
+        // Filtros necessários
         if (!string.IsNullOrWhiteSpace(category))
             query = query.Where(p => p.Category == category);
 

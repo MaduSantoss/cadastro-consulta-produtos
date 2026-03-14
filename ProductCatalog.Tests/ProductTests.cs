@@ -21,19 +21,16 @@ public class ProductTests
         Assert.Equal(name, product.Name);
         Assert.Equal(category, product.Category);
         Assert.Equal(price, product.Price);
-        Assert.Null(product.ImageUrl); // A imagem deve ser nula no início
+        Assert.Null(product.ImageUrl); 
     }
 
     [Fact]
     public void Deactivate_Should_Set_IsActive_To_False()
     {
-        // Arrange
         var product = new Product("Teclado", "Acessórios", 200.0m);
 
-        // Act
         product.Deactivate();
 
-        // Assert
         Assert.False(product.IsActive);
     }
     

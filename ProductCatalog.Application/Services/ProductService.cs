@@ -56,7 +56,6 @@ public class ProductService : IProductService
         await _repository.UpdateAsync(product);
     }
 
-    // Método auxiliar para não repetirmos código de conversão
     private static ProductResponseDto MapToResponseDto(Product product)
     {
         return new ProductResponseDto(
