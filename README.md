@@ -66,8 +66,8 @@ docker-compose up --build -d
 ```
 
 **4. Acesse a Documentação Viva (Swagger)**
-Com os contêineres em execução, acesse a URL abaixo no seu navegador para visualizar e testar todos os endpoints:
-👉 **[http://localhost:8080/swagger](https://www.google.com/search?q=http://localhost:8080/swagger)**
+Com os contêineres em execução, digite a URL abaixo na aba de pesquisa do seu navegador para visualizar e testar todos os endpoints:
+👉 **[http://localhost:8080/swagger]**
 
 **5. (Opcional) Acesso Direto ao Banco de Dados**
 Para consultas diretas, o PostgreSQL está acessível com as seguintes credenciais locais:
