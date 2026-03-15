@@ -16,6 +16,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
+    restart: on-failure
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=ProductCatalogDb;Username=admin;Password=adminpassword
